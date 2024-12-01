@@ -1,4 +1,4 @@
-from unittesting.playing_board import get_playing_board
+from playing_board import get_playing_board
 
 def test_playing_board():
 
@@ -18,9 +18,9 @@ def test_playing_board():
     )
 
     print("hello" ,type(board_of_10))
-    print(get_playing_board(50))
+    print(get_playing_board(5))
 
 
-    assert get_playing_board(5).join(',') == board_of_5
-    assert get_playing_board(10).joint(',') == board_of_10
+    assert ('').join(get_playing_board(5)) == board_of_5
+    assert ('').join(get_playing_board(10)) == board_of_10
 
