@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from unittesting.idomatic import get_report
+from idomatic import get_report
 
 CURRENT_DIR = Path.cwd()
 DATA_DIR = CURRENT_DIR.parent / "unittesting/data"
