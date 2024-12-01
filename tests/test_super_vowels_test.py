@@ -1,4 +1,4 @@
-from unittesting.super_vowels import SuperVowel
+from super_vowels import SuperVowel
 
 def testSuperVowel():
     str1 = "abciou"

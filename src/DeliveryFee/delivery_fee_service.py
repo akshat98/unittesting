@@ -23,7 +23,7 @@ class DeliveryFeeService:
     location: Location
 
     def __init__(self, order: Order, location: Location):
-        if order.get_amount() <= 0:
+        if order.get_amount() < 0:
             raise ValueError("Order amount cannot be negative.")
         if location.get_distance() <= 0:
             raise ValueError("Distance cannot be negative.")

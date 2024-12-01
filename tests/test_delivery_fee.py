@@ -2,7 +2,7 @@ import pytest_mock
 import pytest
 from math import isclose
 
-from unittesting.DeliveryFee.delivery_fee_service import *
+from DeliveryFee.delivery_fee_service import *
 
 
 @pytest.fixture
