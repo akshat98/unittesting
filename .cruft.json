@@ -1,0 +1,18 @@
+{
+  "template": "https://github.com/woltapp/wolt-python-package-cookiecutter",
+  "commit": "b25684a2c63387153b83a1cc03ea332be8c8279a",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "author_name": "Akshat",
+      "author_email": "joshiakshat1998@gmail.com",
+      "github_username": "akshat98",
+      "project_name": "unitTesting",
+      "project_slug": "unittesting",
+      "package_name": "unittesting",
+      "project_short_description": "sample debugging of unit testcases",
+      "_template": "https://github.com/woltapp/wolt-python-package-cookiecutter"
+    }
+  },
+  "directory": null
+}
