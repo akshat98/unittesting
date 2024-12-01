@@ -4,9 +4,6 @@ def call(val: int) -> int:
     return val;
 
 def get_playing_board(n: int)-> list[str]:
-    def get_char(ind : int)-> str: 
-        return '*' if ind%2 == 0 else ' '
-    
     toggle = False
     matrix = []
     for j in range(n):
